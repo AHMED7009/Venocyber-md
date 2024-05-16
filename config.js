@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
 global.github = process.env.GITHUB || "https://github.com/Kingjux/Venocyber-md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
+global.gurl = process.env.GURL || "https://wa.me//+994404282709";
+global.website = process.env.GURL || "https://wa.me//+994404282709";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/8b1fc2e6a39c59d436ff6.jpg";
 global.devs = "255625774543";
-global.sudo = process.env.SUDO || "255625774543";
-global.owner = process.env.OWNER_NUMBER || "255625774543";
+global.sudo = process.env.SUDO || "994404282709";
+global.owner = process.env.OWNER_NUMBER || "994404282709";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑-𝐌𝐃 ╠════ need support then ☞ https://rb.gy/izabex ═════╣",
-  author: process.env.PACK_AUTHER || "VENOCYBER",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  caption: process.env.CAPTION || "𝑨𝑳𝑲𝑨𝑺𝑬𝑹 𝑩𝑶𝑻  🐦need support then ☞ +994404282709",
+  author: process.env.PACK_AUTHER || "ALKASER",
+  packname: process.env.PACK_NAME || "🐦",
+  botname: process.env.BOT_NAME || "𝑨𝑳𝑲𝑨𝑺𝑬𝑹 𝐌𝐃",
+  ownername: process.env.OWNER_NAME || "𝑨𝑳𝑲𝑨𝑺𝑬𝑹",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
